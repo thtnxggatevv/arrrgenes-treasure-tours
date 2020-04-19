@@ -39,6 +39,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #522806;
 }
 
 .card {
@@ -51,6 +52,14 @@ html {
   background-color: #bea59b;
   border-color: #bea59b;
   color: #522806;
+}
+
+.nav a:focus {
+  outline: .3rem solid #fff;
+}
+
+.banner-content a:focus {
+  outline: .3rem solid #fff;
 }
 
 .btn-light:hover,
